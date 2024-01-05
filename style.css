@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffafcc;
+    margin-top: 50px;
+}
+.button{
+    width: 250px;
+    height: 100px;
+    border: 0px;
+    background-color: #8e9aaf;
+    font-size: 20px;
+    cursor:pointer;
+}
+.button:hover{
+    background-color: rgb(59, 58, 55);
+    color: aliceblue;
+}
+#display{
+    max-width: 1000px;
+    height: 100px;
+    background-color: #bde0fe;
+    color: rgb(16, 20, 20);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+}
+.equal{
+    background-color: brown;
+}
+.equal:hover{
+    background-color: brown;
+
+}
